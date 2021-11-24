@@ -1,8 +1,9 @@
-     $ $ # Make sure you are in the correct directory
-    # Make sure you are in the correct directory
-    $ $ cd CalculatorLibrary
-    cd CalculatorLibrary
-    $ git add calculator.py
-    $ git add calculator.py
-    $ git commit -m $ git commit -m "Add functions for addition and subtraction"
-    "Add functions for addition and subtraction"
+"""
+Calculator library containing basic math operations.
+"""
+
+def add(first_term, second_term):
+    return first_term + second_term
+
+def subtract(first_term, second_term):
+    return first_term - second_term
